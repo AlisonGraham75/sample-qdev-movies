@@ -96,7 +96,7 @@ public class MoviesController {
                 if (isAllParametersEmpty(name, id, genre)) {
                     model.addAttribute("searchMessage", "Ahoy! Ready to search for treasure? Use the form below to find yer favorite movies!");
                 } else {
-                    model.addAttribute("searchMessage", "Blimey! No movies found matchin' yer search criteria. Try different terms, ye scallywag!");
+                    model.addAttribute("searchMessage", "Shucks! No movies found matchin' yer search criteria. Try different terms, ye scallywag!");
                 }
             } else {
                 String resultMessage = String.format("Yo ho ho! Found %d movie%s matchin' yer search, matey!", 
